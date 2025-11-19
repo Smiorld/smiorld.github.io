@@ -1,0 +1,125 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Qiye Zhou",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "JuliusQiyeZhou@gmail.com",
+    "phone": "+44 7719798299",
+    "url": "https://github.com/smiorld",
+    "summary": "Experienced problem-solver, dedicated team player, and quick learner with a task-oriented approach. Proven ability to manage resources effectively and deliver innovative solutions to complex challenges. Passionate about technology and equipped with strong analytical and problem-solving skills. Holding a BSc in Engineering and an MSc in Computing, currently residing in the UK on a spouse visa. Eager to leverage my skills in the IT industry and contribute to impactful projects.",
+    "location": {
+      "address": "St Stephens Mansions",
+      "postalCode": "CF10 5LQ",
+      "city": "Cardiff",
+      "countryCode": "UK",
+      "region": "Wales"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "smiorld",
+        "url": "https://github.com/smiorld"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "qiyezhou",
+        "url": "https://linkedin.com/in/qiyezhou"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Dayingjia Leisure Club",
+      "position": "Startup Co-Founder",
+      "url": "",
+      "startDate": "2024-02-01",
+      "endDate": "2025-07-31",
+      "summary": "Led business strategy and product development for a leisure services startup",
+      "highlights": [
+        "Studied market to determine optimal pricing of services and capitalize on emerging opportunities",
+        "Drove product development from concept to launch, ensuring alignment with customer needs",
+        "Conducted target market research to scope out industry competition and identify advantageous trends",
+        "Established strong partnerships with key industry players for greater market presence"
+      ]
+    },
+    {
+      "name": "Magic Mirror LTD",
+      "position": "Software Project Manager",
+      "url": "",
+      "startDate": "2023-03-01",
+      "endDate": "2023-09-30",
+      "summary": "Managed software development projects and cross-functional teams",
+      "highlights": [
+        "Maintained strong relationships with external vendors and stakeholders, ensuring timely delivery of resources, services, and support to drive successful project outcomes",
+        "Directed cross-functional teams throughout the software development lifecycle, delivering high-quality products on time and within budget",
+        "Oversaw optimization initiatives to improve software scalability and performance, aligning system capabilities with the needs of an expanding user base"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cardiff University",
+      "url": "https://www.cardiff.ac.uk",
+      "area": "Computing",
+      "studyType": "Master of Science",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-30",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Huazhong University of Science & Technology",
+      "url": "https://www.hust.edu.cn",
+      "area": "Material Forming and Control Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2017-09-01",
+      "endDate": "2021-06-30",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "Javascript",
+        "C++",
+        "JAVA"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Advanced",
+      "keywords": [
+        "Agile development",
+        "Cloud development",
+        "Relational Database Design & Management"
+      ]
+    },
+    {
+      "name": "Management & Soft Skills",
+      "level": "Advanced",
+      "keywords": [
+        "Problem-solving",
+        "Strategic thinking",
+        "Project Management"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}
