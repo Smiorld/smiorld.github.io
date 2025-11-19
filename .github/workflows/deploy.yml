@@ -27,8 +27,13 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install resume-cli and theme
+        run: |
+          npm install -g resume-cli
+          npm install jsonresume-theme-executive-slate
+
       - name: Build resume with executive-slate theme
-        run: npx -y resume-cli export index.html --theme executive-slate --resume resume.json
+        run: resume export index.html --theme executive-slate
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
