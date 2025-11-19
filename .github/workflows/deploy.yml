@@ -30,10 +30,10 @@ jobs:
       - name: Install resume-cli and theme
         run: |
           npm install -g resume-cli
-          npm install jsonresume-theme-executive-slate
+          npm install jsonresume-theme-elegant
 
-      - name: Build resume with executive-slate theme
-        run: resume export index.html --theme executive-slate
+      - name: Build resume with elegant theme
+        run: resume export index.html --theme elegant
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
