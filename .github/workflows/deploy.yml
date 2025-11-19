@@ -30,10 +30,10 @@ jobs:
       - name: Install resume-cli and theme
         run: |
           npm install -g resume-cli
-          npm install jsonresume-theme-elegant
+          npm install jsonresume-theme-paper
 
-      - name: Build resume with elegant theme
-        run: resume export index.html --theme elegant
+      - name: Build resume with paper theme (optimized for PDF)
+        run: resume export index.html --theme paper
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
