@@ -7,7 +7,7 @@
     "email": "JuliusQiyeZhou@gmail.com",
     "phone": "+44 7719798299",
     "url": "https://github.com/smiorld",
-    "summary": "Experienced problem-solver, dedicated team player, and quick learner with a task-oriented approach. Proven ability to manage resources effectively and deliver innovative solutions to complex challenges. Passionate about technology and equipped with strong analytical and problem-solving skills. Holding a BSc in Engineering and an MSc in Computing, currently residing in the UK on a spouse visa. Eager to leverage my skills in the IT industry and contribute to impactful projects.",
+    "summary": "MSc Computing graduate with 2+ years of software development and project management experience. Proven track record in full-stack development using Python/Flask, JavaScript, and modern web technologies. Experienced in leading technical projects, implementing RESTful APIs, and building real-time web applications. UK resident with spouse visa work authorisation (no sponsorship required).",
     "location": {
       "address": "St Stephens Mansions",
       "postalCode": "CF10 5LQ",
@@ -31,29 +31,30 @@
   "work": [
     {
       "name": "Dayingjia Leisure Club",
-      "position": "Startup Co-Founder",
+      "position": "Technical Co-Founder & Lead Developer",
       "url": "",
       "startDate": "2024-02-01",
-      "endDate": "2025-07-31",
-      "summary": "Led business strategy and product development for a leisure services startup",
+      "endDate": "Present",
+      "summary": "Led technical strategy and full-stack development for a leisure services startup, focusing on WeChat mini-program development",
       "highlights": [
-        "Studied market to determine optimal pricing of services and capitalize on emerging opportunities",
-        "Drove product development from concept to launch, ensuring alignment with customer needs",
-        "Conducted target market research to scope out industry competition and identify advantageous trends",
-        "Established strong partnerships with key industry players for greater market presence"
+        "Developed and launched WeChat mini-program from scratch, achieving 80%+ user adoption for bookings and service consumption",
+        "Implemented booking system, payment integration, and user management features serving active user base",
+        "Architected scalable backend infrastructure to support real-time booking and customer relationship management",
+        "Conducted market research and competitive analysis to inform technical requirements and product roadmap"
       ]
     },
     {
       "name": "Magic Mirror LTD",
-      "position": "Software Project Manager",
+      "position": "Software Developer & Project Manager",
       "url": "",
       "startDate": "2023-03-01",
       "endDate": "2023-09-30",
-      "summary": "Managed software development projects and cross-functional teams",
+      "summary": "Managed client relationships and delivered custom web applications for enterprise clients",
       "highlights": [
-        "Maintained strong relationships with external vendors and stakeholders, ensuring timely delivery of resources, services, and support to drive successful project outcomes",
-        "Directed cross-functional teams throughout the software development lifecycle, delivering high-quality products on time and within budget",
-        "Oversaw optimization initiatives to improve software scalability and performance, aligning system capabilities with the needs of an expanding user base"
+        "Maintained client relationships with 10+ enterprise clients, ensuring timely delivery and 95%+ satisfaction rates",
+        "Designed and developed multiple internal business applications using Flask framework tailored to client specifications",
+        "Built custom RESTful APIs and database-driven web applications for enterprise workflow automation",
+        "Led full project lifecycle from requirements gathering to deployment, delivering projects on time and within scope"
       ]
     }
   ],
@@ -65,8 +66,8 @@
       "studyType": "Master of Science",
       "startDate": "2021-09-01",
       "endDate": "2023-06-30",
-      "score": "",
-      "courses": []
+      "score": "Merit",
+      "courses": ["Software Engineering", "Web Development", "Database Systems", "Machine Learning"]
     },
     {
       "institution": "Huazhong University of Science & Technology",
@@ -75,7 +76,7 @@
       "studyType": "Bachelor of Science",
       "startDate": "2017-09-01",
       "endDate": "2021-06-30",
-      "score": "",
+      "score": "Distinction",
       "courses": []
     }
   ],
@@ -85,27 +86,62 @@
       "level": "Advanced",
       "keywords": [
         "Python",
-        "Javascript",
-        "C++",
-        "JAVA"
+        "JavaScript/TypeScript",
+        "SQL",
+        "HTML/CSS"
       ]
     },
     {
-      "name": "Software Development",
+      "name": "Backend Development",
       "level": "Advanced",
       "keywords": [
-        "Agile development",
-        "Cloud development",
-        "Relational Database Design & Management"
+        "Flask",
+        "FastAPI",
+        "Node.js",
+        "RESTful APIs",
+        "WebSocket (Flask-SocketIO)"
       ]
     },
     {
-      "name": "Management & Soft Skills",
+      "name": "Frontend Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Tailwind CSS",
+        "JavaScript",
+        "HTML/CSS",
+        "Pygame"
+      ]
+    },
+    {
+      "name": "Database & Cloud",
       "level": "Advanced",
       "keywords": [
-        "Problem-solving",
-        "Strategic thinking",
-        "Project Management"
+        "MySQL",
+        "SQLite",
+        "SQLAlchemy",
+        "AWS",
+        "Azure",
+        "Docker"
+      ]
+    },
+    {
+      "name": "AI & Automation",
+      "level": "Intermediate",
+      "keywords": [
+        "OpenAI API",
+        "APScheduler",
+        "Background Task Processing",
+        "AI Integration"
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "level": "Intermediate",
+      "keywords": [
+        "Git/GitHub",
+        "GitHub Actions",
+        "CI/CD",
+        "Agile/Scrum"
       ]
     }
   ],
@@ -121,5 +157,59 @@
   ],
   "interests": [],
   "references": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "AI Translation API",
+      "description": "RESTful API service providing AI-powered text translation with grammar proofreading capabilities",
+      "highlights": [
+        "Built scalable Flask REST API with OpenAI integration for intelligent translation and proofreading",
+        "Implemented SQLite database with SQLAlchemy ORM for persistent translation history and user management",
+        "Developed background task scheduler using APScheduler for batch translation processing",
+        "Created responsive web interface using Tailwind CSS for API demonstration and testing",
+        "Designed health monitoring system for API, database, and scheduler service status tracking"
+      ],
+      "keywords": [
+        "Flask",
+        "OpenAI API",
+        "SQLite",
+        "SQLAlchemy",
+        "APScheduler",
+        "Tailwind CSS",
+        "RESTful API"
+      ],
+      "startDate": "2024-11-01",
+      "endDate": "2024-11-30",
+      "url": "https://github.com/Smiorld/AI-Translation-API-demo",
+      "roles": [
+        "Full-stack Developer"
+      ]
+    },
+    {
+      "name": "Py-Gomoku Online Game Platform",
+      "description": "Real-time multiplayer Gomoku (five-in-a-row) web application with spectator mode and live chat",
+      "highlights": [
+        "Developed full-stack multiplayer game platform using Flask and WebSocket (Flask-SocketIO) for real-time gameplay",
+        "Implemented game room system supporting up to 12 concurrent participants (2 players + 10 spectators)",
+        "Built server-side game state management and turn-based timer using APScheduler with async event handling",
+        "Designed SQLAlchemy database schema for user accounts, game history, and session management",
+        "Created interactive frontend with move tracking, countdown display, and debug panel for development",
+        "Resolved complex threading/coroutine compatibility issues between Eventlet and BackgroundScheduler"
+      ],
+      "keywords": [
+        "Flask",
+        "WebSocket",
+        "Flask-SocketIO",
+        "SQLAlchemy",
+        "APScheduler",
+        "Real-time Communication",
+        "Game Development"
+      ],
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-31",
+      "url": "https://github.com/Smiorld/py-gomoku",
+      "roles": [
+        "Full-stack Developer"
+      ]
+    }
+  ]
 }
