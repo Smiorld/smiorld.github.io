@@ -7,7 +7,7 @@
     "email": "JuliusQiyeZhou@gmail.com",
     "phone": "+44 7719798299",
     "url": "https://github.com/smiorld",
-    "summary": "MSc Computing graduate with 2+ years of software development and project management experience. Proven track record in full-stack development using Python/Flask, JavaScript, and modern web technologies. Experienced in leading technical projects, implementing RESTful APIs, and building real-time web applications. UK resident with spouse visa work authorisation (no sponsorship required).",
+    "summary": "Backend-focused software engineer with MSc in Computing and 2+ years of hands-on experience building Python/Flask applications. Specialised in RESTful API development, database design, and real-time web applications using WebSocket. Strong foundation in AI integration, task automation, and VPS deployment. Seeking entry-level to junior backend/full-stack roles. UK resident with spouse visa work authorisation (no sponsorship required).",
     "location": {
       "address": "St Stephens Mansions",
       "postalCode": "CF10 5LQ",
@@ -82,6 +82,32 @@
   ],
   "skills": [
     {
+      "name": "Backend Development",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "Flask",
+        "FastAPI",
+        "RESTful APIs",
+        "WebSocket (Flask-SocketIO)",
+        "Celery",
+        "Background Task Processing"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Advanced",
+      "keywords": [
+        "MySQL",
+        "SQLite",
+        "SQLAlchemy",
+        "Database Design",
+        "Complex SQL Queries",
+        "Indexing",
+        "Redis (Basic)"
+      ]
+    },
+    {
       "name": "Programming Languages",
       "level": "Advanced",
       "keywords": [
@@ -92,56 +118,51 @@
       ]
     },
     {
-      "name": "Backend Development",
-      "level": "Advanced",
-      "keywords": [
-        "Flask",
-        "FastAPI",
-        "Node.js",
-        "RESTful APIs",
-        "WebSocket (Flask-SocketIO)"
-      ]
-    },
-    {
       "name": "Frontend Development",
       "level": "Intermediate",
       "keywords": [
         "Tailwind CSS",
+        "Bootstrap",
         "JavaScript",
         "HTML/CSS",
-        "Pygame"
+        "Responsive Design Concepts"
       ]
     },
     {
-      "name": "Database & Cloud",
-      "level": "Advanced",
-      "keywords": [
-        "MySQL",
-        "SQLite",
-        "SQLAlchemy",
-        "AWS",
-        "Azure",
-        "Docker"
-      ]
-    },
-    {
-      "name": "AI & Automation",
+      "name": "AI & Machine Learning",
       "level": "Intermediate",
       "keywords": [
         "OpenAI API",
-        "APScheduler",
-        "Background Task Processing",
-        "AI Integration"
+        "DeepSeek API",
+        "OpenRouter",
+        "Prompt Engineering",
+        "LangChain",
+        "OCR (Tesseract)",
+        "Model Fine-tuning"
       ]
     },
     {
-      "name": "DevOps & Tools",
+      "name": "Cloud & DevOps",
       "level": "Intermediate",
       "keywords": [
+        "VPS Deployment (Linux)",
+        "Docker",
         "Git/GitHub",
         "GitHub Actions",
         "CI/CD",
-        "Agile/Scrum"
+        "AWS S3",
+        "Azure Blob Storage"
+      ]
+    },
+    {
+      "name": "Additional Tools",
+      "level": "Intermediate",
+      "keywords": [
+        "APScheduler",
+        "Pandas/NumPy",
+        "Pytest",
+        "OAuth/JWT Authentication",
+        "OpenAPI/Swagger"
       ]
     }
   ],
@@ -209,6 +230,30 @@
       "url": "https://github.com/Smiorld/py-gomoku",
       "roles": [
         "Full-stack Developer"
+      ]
+    },
+    {
+      "name": "Custom OCR System with Tesseract (MSc Dissertation)",
+      "description": "Machine learning project fine-tuning Tesseract OCR engine for improved text recognition accuracy",
+      "highlights": [
+        "Fine-tuned Tesseract OCR model on custom dataset to improve recognition accuracy for specific document types",
+        "Implemented Python-based data preprocessing pipeline for training data preparation",
+        "Conducted comparative analysis of model performance metrics before and after fine-tuning",
+        "Developed evaluation framework to measure OCR accuracy improvements across different text styles"
+      ],
+      "keywords": [
+        "Python",
+        "Tesseract OCR",
+        "Machine Learning",
+        "Model Fine-tuning",
+        "Data Preprocessing",
+        "Computer Vision"
+      ],
+      "startDate": "2022-09-01",
+      "endDate": "2023-06-30",
+      "url": "",
+      "roles": [
+        "Machine Learning Engineer"
       ]
     }
   ]
