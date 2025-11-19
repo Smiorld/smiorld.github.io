@@ -28,7 +28,7 @@ jobs:
           node-version: '20'
 
       - name: Build resume with executive-slate theme
-        run: npx -y resumed export index.html --theme executive-slate
+        run: npx -y resume-cli export index.html --theme executive-slate --resume resume.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
