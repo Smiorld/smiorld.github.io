@@ -1,0 +1,20 @@
+{
+  "name": "qiye-zhou-resume",
+  "version": "1.0.0",
+  "description": "Qiye Zhou's resume website using JSON Resume format",
+  "scripts": {
+    "build": "resume export index.html --theme even",
+    "serve": "resume serve --theme even"
+  },
+  "keywords": [
+    "resume",
+    "jsonresume",
+    "cv"
+  ],
+  "author": "Qiye Zhou",
+  "license": "MIT",
+  "dependencies": {
+    "resume-cli": "^3.0.8",
+    "jsonresume-theme-even": "^0.2.0"
+  }
+}
